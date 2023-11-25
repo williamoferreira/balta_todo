@@ -3,6 +3,7 @@
 Projeto de estudo do EntityFramwork
 Professor: balta
 YT: https://www.youtube.com/watch?v=QzCSN9wN4JA
+Material adicional: https://learn.microsoft.com/en-us/aspnet/core/data/ef-mvc/crud?view=aspnetcore-8.0
 
 ## Comandos
 
@@ -22,3 +23,6 @@ YT: https://www.youtube.com/watch?v=QzCSN9wN4JA
 ### Reverter uma migração
 
     ```dotnet ef migrations remove```
+
+    Remove sempre a ultima migração.
+    Pode executar varias vezes em sequencia para remover migrações, passo a passo.
